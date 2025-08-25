@@ -4,6 +4,13 @@
 
 ## [Unreleased]
 
+## [1.3.1] - 2025-08-25
+
+### Added
+
+- Plugin Icon
+- Fast shell launching
+
 ## [1.2.4] - 2025-08-25
 
 ### Added
