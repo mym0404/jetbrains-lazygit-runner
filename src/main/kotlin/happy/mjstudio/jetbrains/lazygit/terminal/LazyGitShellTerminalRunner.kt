@@ -112,7 +112,7 @@ class LazyGitShellTerminalRunner(
             }
             ShellType.ZSH -> {
                 // Use -f flag to skip loading .zshrc to avoid slow startup
-                command.add("-f")
+                command.add("--no-rcs")
                 if (isInteractiveOptionAvailable(shellType.displayName)) {
                     command.add("-i")
                 }
