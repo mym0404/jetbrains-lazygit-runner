@@ -6,7 +6,7 @@
 
 A JetBrains IDE plugin that integrates [lazygit](https://github.com/jesseduffield/lazygit) - a simple terminal UI for git commands - directly into your development workflow.
 
-
+<img width="200" height="200" alt="image 4" src="https://github.com/user-attachments/assets/733a9ee4-b51a-42b2-a3a6-c222082a207f" />
 
 https://github.com/user-attachments/assets/2a7106f3-d90b-409d-99e0-d8c3110cc78a
 
