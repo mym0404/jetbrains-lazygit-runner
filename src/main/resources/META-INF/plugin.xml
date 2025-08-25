@@ -1,15 +1,17 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>com.github.mym0404.jetbrainslazygitrunner</id>
-    <name>jetbrains-lazygit-runner</name>
-    <vendor>mym0404</vendor>
+    <id>happy.mjstudio.jetbrains.lazygit</id>
+    <name>LazyGit Runner</name>
+    <vendor>mjstudio</vendor>
 
     <depends>com.intellij.modules.platform</depends>
+    <depends>org.jetbrains.plugins.terminal</depends>
+<!--    <depends>com.jetbrains.sh</depends>-->
+    <actions>
+        <action id="LazyGit.Open"
+                class="happy.mjstudio.jetbrains.lazygit.action.LazygitAction"
+                text="Open Lazygit"
+        />
+    </actions>
 
-    <resource-bundle>messages.MyBundle</resource-bundle>
-
-    <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="com.github.mym0404.jetbrainslazygitrunner.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
-        <postStartupActivity implementation="com.github.mym0404.jetbrainslazygitrunner.startup.MyProjectActivity" />
-    </extensions>
 </idea-plugin>
