@@ -4,7 +4,9 @@
 [![Version](https://img.shields.io/jetbrains/plugin/v/28199.svg)](https://plugins.jetbrains.com/plugin/28199)
 [![Downloads](https://img.shields.io/jetbrains/plugin/d/28199.svg)](https://plugins.jetbrains.com/plugin/28199)
 
+<!-- Plugin description -->
 A JetBrains IDE plugin that integrates [lazygit](https://github.com/jesseduffield/lazygit) - a simple terminal UI for git commands - directly into your development workflow.
+<!-- Plugin description end -->
 
 <img width="200" height="200" alt="image 4" src="https://github.com/user-attachments/assets/733a9ee4-b51a-42b2-a3a6-c222082a207f" />
 
